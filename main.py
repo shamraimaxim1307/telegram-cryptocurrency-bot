@@ -1,10 +1,18 @@
+# Import telebot, that my bot will work
 import telebot
-import requests
 from telebot import types
+
+# Import requests, to request data from Binance API
+import requests
+
+# Import models to have access to my database columns
 from models import User, Crypto
+
+# Data from .gitignore, delete this to avoid error
 from secretdata import Data
 
-token = Data.api_key
+# To use my bot, you should change token data, because bot won't be worked
+token = Data.api_key # EDIT THIS!
 bot = telebot.TeleBot(token)
 
 
