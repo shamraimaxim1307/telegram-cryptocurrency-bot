@@ -12,7 +12,7 @@ from models import User, Crypto
 from secretdata import Data
 
 # To use my bot, you should change token data, because bot won't be worked
-token = Data.api_key # EDIT THIS!
+token = Data.api_key  # EDIT THIS!
 bot = telebot.TeleBot(token)
 
 

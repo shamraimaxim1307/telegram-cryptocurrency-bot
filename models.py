@@ -1,6 +1,6 @@
 from peewee import Model, CharField, IntegerField, SqliteDatabase, ForeignKeyField, DecimalField
 
-db = SqliteDatabase("botTelegram.sqlite3")
+db = SqliteDatabase("database/botTelegram.sqlite3")
 
 
 class User(Model):

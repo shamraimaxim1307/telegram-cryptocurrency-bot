@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 /secretdata.py
 /botTelegram.sqlite3
+/database/botTelegram.sqlite3
